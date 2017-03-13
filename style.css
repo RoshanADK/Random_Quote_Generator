@@ -1,0 +1,44 @@
+html,body {
+  color: #42ddac;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  height: 100%;
+  width: 100%;
+  font-family: cursive;
+  position: top;
+  background-color: white;
+  background-image: url('3.jpg');
+  background-repeat:no-repeat;
+  background-position: top;
+  z-index: -2;
+}
+
+#newq {
+  outline: none;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: cursive;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: #d36767;
+  color: white;
+  border: thin solid red;
+  height: 80px;
+  width: 190px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#newq:hover {
+  background-color: #3e8e41;
+  color: black;
+  border: thin solid black;
+  opacity: 0.8;
+}
+
+#newq:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
